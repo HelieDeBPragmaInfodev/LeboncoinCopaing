@@ -99,10 +99,10 @@
 			children = (
 				EF8C4E1E289A55480062735C /* AppDelegate.swift */,
 				EF8C4E20289A55480062735C /* SceneDelegate.swift */,
-				EF8C4E22289A55480062735C /* HomeViewController.swift */,
-				EF8C4E2A289A554A0062735C /* Assets.xcassets */,
+				EF8C4E54289A57C30062735C /* Application */,
+				EF8C4E52289A57940062735C /* Services */,
 				EF8C4E2F289A554A0062735C /* Info.plist */,
-				EF8C4E27289A55480062735C /* LeBonCoingCopaing.xcdatamodeld */,
+				EF8C4E51289A576B0062735C /* Ressources */,
 			);
 			path = LeBonCoingCopaing;
 			sourceTree = "<group>";
@@ -122,6 +122,70 @@
 				EF8C4E44289A554A0062735C /* LeBonCoingCopaingUITestsLaunchTests.swift */,
 			);
 			path = LeBonCoingCopaingUITests;
+			sourceTree = "<group>";
+		};
+		EF8C4E51289A576B0062735C /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E2A289A554A0062735C /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		EF8C4E52289A57940062735C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E53289A579D0062735C /* CoreData */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EF8C4E53289A579D0062735C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E27289A55480062735C /* LeBonCoingCopaing.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EF8C4E54289A57C30062735C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E55289A57CF0062735C /* HomeView */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EF8C4E55289A57CF0062735C /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E58289A582F0062735C /* ViewData */,
+				EF8C4E57289A58270062735C /* ViewModels */,
+				EF8C4E56289A58020062735C /* Views */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		EF8C4E56289A58020062735C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E22289A55480062735C /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF8C4E57289A58270062735C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF8C4E58289A582F0062735C /* ViewData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
