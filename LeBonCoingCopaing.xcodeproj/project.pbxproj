@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4AE9FB28A012320001E91C /* ListingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AE9FA28A012320001E91C /* ListingViewCell.swift */; };
+		EF4AE9FC28A012320001E91C /* ListingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AE9FA28A012320001E91C /* ListingViewCell.swift */; };
+		EF4AE9FF28A01A230001E91C /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AE9FE28A01A230001E91C /* Dimension.swift */; };
+		EF4AEA0028A01A230001E91C /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AE9FE28A01A230001E91C /* Dimension.swift */; };
+		EF4AEA0428A0EA6D0001E91C /* ListingViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA0328A0EA6D0001E91C /* ListingViewData.swift */; };
+		EF4AEA0528A0EA6D0001E91C /* ListingViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA0328A0EA6D0001E91C /* ListingViewData.swift */; };
+		EF4AEA0B28A11AEC0001E91C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA0A28A11AEC0001E91C /* DetailViewController.swift */; };
+		EF4AEA0C28A11AEC0001E91C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA0A28A11AEC0001E91C /* DetailViewController.swift */; };
+		EF4AEA0E28A11CD60001E91C /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA0D28A11CD60001E91C /* DetailViewModel.swift */; };
+		EF4AEA0F28A11CD60001E91C /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA0D28A11CD60001E91C /* DetailViewModel.swift */; };
+		EF4AEA1028A150A30001E91C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E22289A55480062735C /* HomeViewController.swift */; };
+		EF4AEA1328A171C30001E91C /* DateFormatterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA1228A171C30001E91C /* DateFormatterString.swift */; };
+		EF4AEA1428A171C30001E91C /* DateFormatterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AEA1228A171C30001E91C /* DateFormatterString.swift */; };
 		EF8C4E1F289A55480062735C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E1E289A55480062735C /* AppDelegate.swift */; };
 		EF8C4E21289A55480062735C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E20289A55480062735C /* SceneDelegate.swift */; };
 		EF8C4E23289A55480062735C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E22289A55480062735C /* HomeViewController.swift */; };
@@ -15,6 +28,18 @@
 		EF8C4E39289A554A0062735C /* LeBonCoingCopaingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E38289A554A0062735C /* LeBonCoingCopaingTests.swift */; };
 		EF8C4E43289A554A0062735C /* LeBonCoingCopaingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E42289A554A0062735C /* LeBonCoingCopaingUITests.swift */; };
 		EF8C4E45289A554A0062735C /* LeBonCoingCopaingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E44289A554A0062735C /* LeBonCoingCopaingUITestsLaunchTests.swift */; };
+		EF8C4E5A289A592B0062735C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E59289A592B0062735C /* HomeViewModel.swift */; };
+		EF8C4E5B289A592B0062735C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E59289A592B0062735C /* HomeViewModel.swift */; };
+		EF8C4E5F289ADB1D0062735C /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E5E289ADB1D0062735C /* NetworkSessionManager.swift */; };
+		EF8C4E60289ADB1D0062735C /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E5E289ADB1D0062735C /* NetworkSessionManager.swift */; };
+		EF8C4E62289ADD3C0062735C /* URLServiceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E61289ADD3C0062735C /* URLServiceKeys.swift */; };
+		EF8C4E63289ADD3C0062735C /* URLServiceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E61289ADD3C0062735C /* URLServiceKeys.swift */; };
+		EF8C4E65289AF7430062735C /* CategorieElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E64289AF7430062735C /* CategorieElement.swift */; };
+		EF8C4E66289AF7430062735C /* CategorieElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E64289AF7430062735C /* CategorieElement.swift */; };
+		EF8C4E68289AF7DB0062735C /* ListingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E67289AF7DB0062735C /* ListingElement.swift */; };
+		EF8C4E69289AF7DB0062735C /* ListingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E67289AF7DB0062735C /* ListingElement.swift */; };
+		EF8C4E6C28A00CAD0062735C /* NotificationCenterKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E6B28A00CAD0062735C /* NotificationCenterKeys.swift */; };
+		EF8C4E6D28A00CAD0062735C /* NotificationCenterKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C4E6B28A00CAD0062735C /* NotificationCenterKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF4AE9FA28A012320001E91C /* ListingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewCell.swift; sourceTree = "<group>"; };
+		EF4AE9FE28A01A230001E91C /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		EF4AEA0328A0EA6D0001E91C /* ListingViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewData.swift; sourceTree = "<group>"; };
+		EF4AEA0A28A11AEC0001E91C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF4AEA0D28A11CD60001E91C /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		EF4AEA1228A171C30001E91C /* DateFormatterString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterString.swift; sourceTree = "<group>"; };
 		EF8C4E1B289A55480062735C /* LeBonCoingCopaing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBonCoingCopaing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8C4E1E289A55480062735C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8C4E20289A55480062735C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +78,12 @@
 		EF8C4E3E289A554A0062735C /* LeBonCoingCopaingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeBonCoingCopaingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8C4E42289A554A0062735C /* LeBonCoingCopaingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeBonCoingCopaingUITests.swift; sourceTree = "<group>"; };
 		EF8C4E44289A554A0062735C /* LeBonCoingCopaingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeBonCoingCopaingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF8C4E59289A592B0062735C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EF8C4E5E289ADB1D0062735C /* NetworkSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManager.swift; sourceTree = "<group>"; };
+		EF8C4E61289ADD3C0062735C /* URLServiceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLServiceKeys.swift; sourceTree = "<group>"; };
+		EF8C4E64289AF7430062735C /* CategorieElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieElement.swift; sourceTree = "<group>"; };
+		EF8C4E67289AF7DB0062735C /* ListingElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingElement.swift; sourceTree = "<group>"; };
+		EF8C4E6B28A00CAD0062735C /* NotificationCenterKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +111,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF4AEA0128A0E7CA0001E91C /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E64289AF7430062735C /* CategorieElement.swift */,
+				EF8C4E67289AF7DB0062735C /* ListingElement.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		EF4AEA0228A0E7CE0001E91C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EF4AEA0628A11A800001E91C /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEA0728A11A9F0001E91C /* Views */,
+				EF4AEA0828A11AA60001E91C /* ViewModel */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		EF4AEA0728A11A9F0001E91C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEA0A28A11AEC0001E91C /* DetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF4AEA0828A11AA60001E91C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEA0D28A11CD60001E91C /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF4AEA1128A171AF0001E91C /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEA1228A171C30001E91C /* DateFormatterString.swift */,
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
 		EF8C4E12289A55480062735C = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8C4E2A289A554A0062735C /* Assets.xcassets */,
+				EF4AE9FE28A01A230001E91C /* Dimension.swift */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -135,6 +222,10 @@
 		EF8C4E52289A57940062735C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EF4AEA1128A171AF0001E91C /* DateFormatter */,
+				EF8C4E5D289ADA280062735C /* Models */,
+				EF8C4E6A28A00C790062735C /* NotificationCenter */,
+				EF8C4E5C289ADA1F0062735C /* Network */,
 				EF8C4E53289A579D0062735C /* CoreData */,
 			);
 			path = Services;
@@ -152,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8C4E55289A57CF0062735C /* HomeView */,
+				EF4AEA0628A11A800001E91C /* DetailView */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -159,9 +251,9 @@
 		EF8C4E55289A57CF0062735C /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				EF8C4E58289A582F0062735C /* ViewData */,
-				EF8C4E57289A58270062735C /* ViewModels */,
 				EF8C4E56289A58020062735C /* Views */,
+				EF8C4E57289A58270062735C /* ViewModel */,
+				EF8C4E58289A582F0062735C /* ViewData */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -170,22 +262,51 @@
 			isa = PBXGroup;
 			children = (
 				EF8C4E22289A55480062735C /* HomeViewController.swift */,
+				EF4AE9FA28A012320001E91C /* ListingViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		EF8C4E57289A58270062735C /* ViewModels */ = {
+		EF8C4E57289A58270062735C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EF8C4E59289A592B0062735C /* HomeViewModel.swift */,
 			);
-			path = ViewModels;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		EF8C4E58289A582F0062735C /* ViewData */ = {
 			isa = PBXGroup;
 			children = (
+				EF4AEA0328A0EA6D0001E91C /* ListingViewData.swift */,
 			);
 			path = ViewData;
+			sourceTree = "<group>";
+		};
+		EF8C4E5C289ADA1F0062735C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E5E289ADB1D0062735C /* NetworkSessionManager.swift */,
+				EF8C4E61289ADD3C0062735C /* URLServiceKeys.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EF8C4E5D289ADA280062735C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF4AEA0228A0E7CE0001E91C /* CoreData */,
+				EF4AEA0128A0E7CA0001E91C /* Json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF8C4E6A28A00C790062735C /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C4E6B28A00CAD0062735C /* NotificationCenterKeys.swift */,
+			);
+			path = NotificationCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +441,19 @@
 				EF8C4E23289A55480062735C /* HomeViewController.swift in Sources */,
 				EF8C4E1F289A55480062735C /* AppDelegate.swift in Sources */,
 				EF8C4E21289A55480062735C /* SceneDelegate.swift in Sources */,
+				EF8C4E62289ADD3C0062735C /* URLServiceKeys.swift in Sources */,
+				EF4AE9FB28A012320001E91C /* ListingViewCell.swift in Sources */,
+				EF8C4E5F289ADB1D0062735C /* NetworkSessionManager.swift in Sources */,
+				EF4AEA0428A0EA6D0001E91C /* ListingViewData.swift in Sources */,
+				EF8C4E5A289A592B0062735C /* HomeViewModel.swift in Sources */,
+				EF8C4E65289AF7430062735C /* CategorieElement.swift in Sources */,
+				EF4AE9FF28A01A230001E91C /* Dimension.swift in Sources */,
+				EF8C4E6C28A00CAD0062735C /* NotificationCenterKeys.swift in Sources */,
 				EF8C4E29289A55480062735C /* LeBonCoingCopaing.xcdatamodeld in Sources */,
+				EF8C4E68289AF7DB0062735C /* ListingElement.swift in Sources */,
+				EF4AEA1328A171C30001E91C /* DateFormatterString.swift in Sources */,
+				EF4AEA0E28A11CD60001E91C /* DetailViewModel.swift in Sources */,
+				EF4AEA0B28A11AEC0001E91C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +461,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4AEA0C28A11AEC0001E91C /* DetailViewController.swift in Sources */,
+				EF8C4E6D28A00CAD0062735C /* NotificationCenterKeys.swift in Sources */,
+				EF8C4E60289ADB1D0062735C /* NetworkSessionManager.swift in Sources */,
+				EF4AEA0028A01A230001E91C /* Dimension.swift in Sources */,
+				EF8C4E66289AF7430062735C /* CategorieElement.swift in Sources */,
+				EF4AEA1428A171C30001E91C /* DateFormatterString.swift in Sources */,
 				EF8C4E39289A554A0062735C /* LeBonCoingCopaingTests.swift in Sources */,
+				EF4AEA0528A0EA6D0001E91C /* ListingViewData.swift in Sources */,
+				EF4AEA0F28A11CD60001E91C /* DetailViewModel.swift in Sources */,
+				EF8C4E5B289A592B0062735C /* HomeViewModel.swift in Sources */,
+				EF4AE9FC28A012320001E91C /* ListingViewCell.swift in Sources */,
+				EF8C4E63289ADD3C0062735C /* URLServiceKeys.swift in Sources */,
+				EF4AEA1028A150A30001E91C /* HomeViewController.swift in Sources */,
+				EF8C4E69289AF7DB0062735C /* ListingElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
